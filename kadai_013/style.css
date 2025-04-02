@@ -16,6 +16,10 @@ p {
 PC用のスタイル 
 =================*/
 @media screen and (min-width: 768px) {
+  #menu-sp {
+    display:none;
+  }
+
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -93,6 +97,8 @@ PC用のスタイル
     position: absolute;
     top: 20px;
     right: 20px;
+    background-color: transparent;
+    border: none;
   }
 
   #nav-sp ul {
@@ -139,10 +145,6 @@ PC用のスタイル
     background-image: url("images/arrow.png");
     background-repeat: no-repeat;
     background-position: right top;
-  }
-
-  #menu-sp {
-    display:none;
   }
 
   #nap-sp {
