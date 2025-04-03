@@ -58,6 +58,14 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+
+  /* SP用ナビゲーション非表示 */
+  #menu-sp {
+    display: none;
+  }
+  #nav-sp {
+    display: none;
+  }
 }
 
 /*================
@@ -69,7 +77,6 @@ PC用のスタイル
     min-width: 375px;
     margin: 0;
   }
-}
 
   /* PCのナビゲーションを非表示に */
   #nav-pc {
@@ -138,7 +145,7 @@ PC用のスタイル
     background-repeat: no-repeat;
     background-position: right top;
   }
-
+}
 
 
 
